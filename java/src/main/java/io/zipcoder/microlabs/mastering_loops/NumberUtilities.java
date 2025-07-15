@@ -81,7 +81,7 @@ public class NumberUtilities {
 
         // Iterate through the range from start to stop (include 'start' -> set equal and exclude 'stop' ->not equal)
         for (int i = start; i < stop; i++) {
-            if (i % 2 != 0) {
+            if (i % 2 == 0) {
                 result = result + i;
             }
         }
@@ -97,7 +97,7 @@ public class NumberUtilities {
 
         // Iterate through the range from start to stop (include 'start' -> set equal and exclude 'stop' ->not equal)
         for (int i = start; i < stop; i++) {
-            if (i % 2 == 0) {
+            if (i % 2 != 0) {
                 result = result + i;
             }
         }

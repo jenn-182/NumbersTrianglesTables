@@ -31,7 +31,7 @@ public class TriangleUtilities {
             result = result + '\n';
             i++;
         }
-        // Add the last row
+        // return the amount of rows 
         return result;
     }
 
