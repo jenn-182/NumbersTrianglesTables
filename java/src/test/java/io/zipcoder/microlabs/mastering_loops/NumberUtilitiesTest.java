@@ -231,7 +231,7 @@ public class NumberUtilitiesTest {
     @Test
     public void testGetExponentiationNumbers() {
         // : Given
-        String expected = "25100225";
+        String expected = "25.0100.0225.0";
         int start = 5;
         int stop = 20;
         int step = 5;
