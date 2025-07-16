@@ -17,7 +17,7 @@ public class NumberUtilities {
             double doubleResult=Math.pow(i,exponent);
 
             //convert double to string
-            result= result + String.valueOf(doubleResult);
+            result = result + String.valueOf(doubleResult);
         }
         //return result
         return result; 

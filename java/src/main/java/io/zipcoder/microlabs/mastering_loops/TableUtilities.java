@@ -8,14 +8,14 @@ public class TableUtilities {
        String table = "";
 
        //Create outer loop for ROWS -> R => the amound of rows needed
-       // Iterate from 1 to tableSize (including tableSize)
+       //Iterate from 1 to tableSize (including tableSize)
        for (int r = 1; r <= tableSize; r++) {
 
-           // Create inner loop for COLUMNS -> C => the amount of columns needed
+           //Create inner loop for COLUMNS -> C => the amount of columns needed
            for (int c = 1; c <= tableSize; c++) {
 
-               // Multiply the row and columns to get the total for the table 
-               //(how many times the row and column intersect)
+               //Multiply the row and columns to get the total for the table size
+               //(how many times do the rows and columns intersect?)
                int valueOfTableSize = r * c;
 
                //If number is less than 10, add 2 spaces before the number 
@@ -32,7 +32,7 @@ public class TableUtilities {
                      table = table + valueOfTableSize + " |";
                 }
            }
-            // Add a newline at the end of each row
+            // Add a newline at the end of each row -> \n
             table = table + "\n";
        }
        //Return the table
